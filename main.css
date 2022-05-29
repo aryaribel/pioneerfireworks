@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Lobster&family=My+Soul&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Lobster&family=My+Soul&family=Pacifico&family=Poppins:wght@300&display=swap');
+
+/* banner */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner h3 {
+    font-family: 'Pacifico', cursive;
+    color: red;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+/* navbar */
+
+.navbar-brand img {
+    height: 65px;
+}
+
+/* carousel */
+
+.carousel {
+    position: relative;
+}
+
+.carousel-caption {
+    font-family: 'Pacifico', cursive;
+    color: yellow;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    position: absolute;
+    top: -800%;
+    left: -10%;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+    position: absolute;
+    top: -600%;
+    left: 0%;
+}
+
+.carousel-item img {
+    max-height: 90vh;
+}
+
+.about:hover{
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+    color: white;
+}
+.aboutimg:hover{
+    transform: scale(1.1);
+}
+
+/* section */
+
+.section {
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+}
+.section:hover{
+    transform: scale(1.05);
+}
+
+/* cards */
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card:hover .card-body {
+    color: white;
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+}
+
+.card .btn {
+    background-color: rgba(26, 3, 110, 0.877);
+}
+
+.card .btn:hover {
+    background-color: rgb(207, 241, 12);
+    color: black;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    max-width: 100%;
+    background: linear-gradient(180deg, blue, black);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer .social_icon,
+footer .menu {
+    width: 8%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+footer .social_icon li,
+footer .menu li {
+    list-style: none;
+}
+
+footer .social_icon li a {
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover {
+    transform: translateY(-10px);
+
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
